@@ -1,1 +1,77 @@
 # leetcode75
+
+- 1.  Asteroid Collision
+- 2.  Odd Even Linked List
+- 3.  Search in a Binary Search Tree
+- 4.  Delete the Middle Node of a Linked List
+- 5.  Greatest Common Divisor of Strings
+- 6.  Single Number
+- 7.  Max Consecutive Ones III
+- 8.  Longest Subarray of 1's After Deleting One Element
+- 9.  Kids With the Greatest Number of Candies
+- 10. House Robber
+- 11. Rotting Oranges
+- 12. Count Good Nodes in Binary Tree
+- 13. Unique Number of Occurrences
+- 14. Dota2 Senate
+- 15. Search Suggestions System
+- 16. String Compression
+- 17. Domino and Tromino Tiling
+- 18. Combination Sum III
+- 19. Longest Common Subsequence
+- 20. Keys and Rooms
+- 21. Number of Provinces
+- 22. Total Cost to Hire K Workers
+- 23. Min Cost Climbing Stairs
+- 24. Reverse Vowels of a String
+- 25. Kth Largest Element in an Array
+- 26. Nearest Exit from Entrance in Maze
+- 27. Daily Temperatures
+- 28. Online Stock Span
+- 29. Find the Difference of Two Arrays
+- 30. Edit Distance
+- 31. Maximum Average Subarray I
+- 32. Reverse Linked List
+- 33. Unique Paths
+- 34. Reverse Words in a String
+- 35. Find Pivot Index
+- 36. Is Subsequence
+- 37. Decode String
+- 38. Can Place Flowers
+- 39. Minimum Flips to Make a OR b Equal to c
+- 40. Guess Number Higher or Lower
+- 41. Minimum Number of Arrows to Burst Balloons
+- 42. Maximum Depth of Binary Tree
+- 43. Implement Trie (Prefix Tree)
+- 44. Maximum Subsequence Score
+- 45. Max Number of K-Sum Pairs
+- 46. Equal Row and Column Pairs
+- 47. Successful Pairs of Spells and Potions
+- 48. Maximum Number of Vowels in a Substring of Given Length
+- 49. Best Time to Buy and Sell Stock with Transaction Fee
+- 50. Binary Tree Right Side View
+- 51. Smallest Number in Infinite Set
+- 52. Maximum Level Sum of a Binary Tree
+- 53. Lowest Common Ancestor of a Binary Tree
+- 54. Removing Stars From a String
+- 55. Number of Recent Calls
+- 56. Reorder Routes to Make All Paths Lead to the City Zero
+- 57. Container With Most Water
+- 58. Product of Array Except Self
+- 59. Merge Strings Alternately
+- 60. Increasing Triplet Subsequence
+- 61. Evaluate Division
+- 62. N-th Tribonacci Number
+- 63. Determine if Two Strings Are Close
+- 64. Delete Node in a BST
+- 65. Letter Combinations of a Phone Number
+- 66. Path Sum III
+- 67. Maximum Twin Sum of a Linked List
+- 68. Find the Highest Altitude
+- 69. Leaf-Similar Trees
+- 70. Non-overlapping Intervals
+- 71. Counting Bits
+- 72. Koko Eating Bananas
+- 73. Find Peak Element
+- 74. Longest ZigZag Path in a Binary Tree
+- 75. Move Zeroes
