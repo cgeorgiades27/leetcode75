@@ -1,34 +1,42 @@
 package asteroidcollision
 
+// asteroidCollision returns the asteroids that will remain after all collisions
 func asteroidCollision(asteroids []int) []int {
-	var winners []int
+	stackPtr := len(asteroids) - 1
 	for i := len(asteroids) - 1; i > 0; i-- {
+		// pop right
 		right := asteroids[i]
+		stackPtr--
+
+		// pop left
 		left := asteroids[i-1]
+		stackPtr--
 
 		if !willCollide(left, right) {
+			stackPtr += 2
 			continue
 		}
 
-		if absv(left) == absv(right) {
-			asteroids[i-1] = 0
-			asteroids[i] = 0
+		labsv := absv(left)
+		rabsv := absv(right)
+
+		if labsv == rabsv {
+			continue
 		}
 
-		if absv(left) > absv(right) {
-			asteroids[i] = 0
+		stackPtr++
+		if labsv > rabsv {
+			asteroids[stackPtr] = left
 		} else {
-			asteroids[i-1] = 0
+			asteroids[stackPtr] = right
 		}
 	}
 
-	for _, asteroid := range asteroids {
-		if asteroid != 0 {
-			winners = append(winners, asteroid)
-		}
+	if stackPtr < 0 {
+		return []int{}
 	}
 
-	return winners
+	return asteroids[:stackPtr+1]
 }
 
 func willCollide(l, r int) bool {

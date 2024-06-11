@@ -30,14 +30,13 @@ func TestAsteroidCollision(t *testing.T) {
 			t.Errorf("Test %d failed. Expected %v but got %v", i+1, test.expected, actual)
 			continue
 		}
+
+		// sort and compare
 		slices.Sort(actual)
 		slices.Sort(test.expected)
-
-		for j := 0; j < len(actual); j++ {
-			if actual[j] != test.expected[j] {
-				t.Errorf("Test %d failed. Expected %v but got %v", i+1, test.expected, actual)
-				break
-			}
+		if slices.Compare(actual, test.expected) != 0 {
+			t.Errorf("Test %d failed. Expected %v but got %v", i+1, test.expected, actual)
 		}
+
 	}
 }
